@@ -6,8 +6,16 @@ a{color: #000;font-weight: bold;text-decoration: none;}
 a:hover{text-decoration: underline;}
 h1,h2,h3,h4,h5,h6{font-weight: normal;}
 p{margin-bottom: 15px}
-.headsection{height: 60px;background:#EAF2F4; }
-.headleft{float:left;width: 500px;margin-right: 50px;font-family: georgia;}
+.headsection{height: 60px;
+	background:#EAF2F4;
+	border-top: 5px solid #4d4e49;
+	border-bottom: 1px solid #b6c6c6c9 
+}
+.headleft{float:left;
+	width: 500px;
+	margin-right: 50px;
+	font-family: georgia;
+}
 .headleft h2{
 	float: left;
 	font-size: 36px;
@@ -22,8 +30,11 @@ p{margin-bottom: 15px}
 	float: left;
     font-size: 16px;
     margin-top: 20px;
-    margin-left: 12px;}
-.headright{float:right;width: 300px;margin-top:20px;margin-right: 5px;}
+    margin-left: 12px;
+}
+.headright{float:right;width: 300px;
+	margin-top:20px;
+	margin-right: 5px;}
 .headright input[type="text"]{
 	width: 245px;
 	background: #D5E5E8;
@@ -34,43 +45,175 @@ p{margin-bottom: 15px}
 	border:1px solid #A1BCC2;
 	padding: 5px;
 	cursor: pointer;
+	padding: 4px;
+	margin-right: 2px;
 }
-.menusection{}
-.menuleft{}
-.menuleft ul{}
-.menuleft ul li{}
-.menuleft ul li a{}
-.menuleft ul li a:hover{}
-.menuright{}
-.menuright p{}
-.bannersection{}
-.bannerleft{}
-.bannerleft h2{}
-.bannerleft p{}
-.bannerlink{}
-.banlink{}
-.banlink a{}
-.banlink a:hover{}
-.bannerright{}
-.bannerright img{}
-.servicesection{}
-.service{}
-.service h2{}
-.service h3{}
-.service p{}
-.service a{}
-.service a:hover{}
-.contentsection{}
-.contentleft{}
-.contentleft h2{}
+.menusection{background-color: #EAF2F4;height: 45px;}
+.menuleft{
+	float: left;
+	width: 700px;
+}
+.menuleft ul{margin: 0;padding:0;}
+.menuleft ul li {
+    float: left;
+    display: block;
+    list-style: none;
+    padding: 10px 25px;
+    font-size: 14px;
+    margin: 4px 0;
+    border-right: 1px solid #b6c6c9;
+   
+}
+.menuleft ul li:last-child{border-right: none;}
+.menuleft ul li a{display: block;color: #666666; text-decoration: none;}
 
-.leftimage{}
-.leftimage img{}
-.righttext{}
-.righttext h4{}
+
+.menuleft ul li a:hover{}
+.menuright{
+	width: 195px;
+	float: right;
+	color: #666;
+
+	margin-top: 10px;
+}
+.menuright p{margin: 0;}
+.bannersection{
+	background-color: #409BAC;
+	height: 335px;
+	border-top: 2px solid #116FA6;
+	border-bottom: 2px solid #116FA6;
+}
+.bannerleft{
+	width: 465px;
+	margin-right: 20px;
+	float: left;
+	margin-left: 20px;
+
+
+}
+.bannerleft h2{font-family: georgia;
+font-size: 36px;
+color: #fff;
+margin-top: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+.bannerleft p {
+    color: #fff;
+      text-align: justify;
+    line-height: 20px;
+}
+.bannerlink{}
+.banlink{width: 168px;
+	float: left;
+	background-color: #dedede;
+	margin-right: 40px;
+	padding:9px 20px;
+	margin-top: 20px;
+}
+.banlink a{color: #666;
+	font-size: 18px;
+	text-align: center;
+	font-weight: normal;}
+.banlink a:hover{}
+.bannerright{
+	width: 455px;
+	float: right;}
+.bannerright img{
+	height: 245px;
+	width: 420px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	border:3px solid #fff;
+
+}
+.servicesection{
+	background-color: #EAF2F4;
+	 /*padding: 0px 20px;*/
+}
+.allsection{
+	margin: 0px 20px;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 30px; 
+}
+.service {
+	border: 1px solid #cdd8d8;
+	float: left;
+    width: 238px;
+    
+    
+   
+}
+.service h2{
+	font-family: georgia;
+	font-size: 22px;
+	background-color: #f1f7f7;
+	text-align: center;
+	padding: 20px;
+	color: #049bac;
+	text-transform: uppercase;
+}
+.service h3{
+	font-family: georgia;
+	font-size: 22px;
+	color: #666666;
+	border-bottom: 1px solid #666666;
+	padding: 0px 10px 10px;
+}
+.service p{padding: 0px 10px 10px;}
+.service a{padding: 0px 10px 10px;
+float: right;}
+.service a:hover{}
+.contentsection{background-color: #EAF2F4;}
+.contentleft{
+	width: 400px;
+	float: left;
+	margin-right: 30px;
+	margin-left: 20px;
+}
+.contentleftdec{padding-top: 20px;border-bottom: 1px solid #cdd8d8;
+	padding-bottom: 20px;
+
+}
+.contentleft h2{
+	font-family: georgia;
+	font-size: 22px;
+	color: #666666;
+	border-bottom: 1px solid #666666;
+	padding: 0px 10px 10px;
+
+}
+
+.leftimage{float: left;width: 90px;margin-right: 3px;}
+.leftimage img{
+	height: 89px;
+	width: 79px;
+	padding:4px;
+	border:1px solid #999;
+
+	
+
+	}
+
+.righttext{
+	float: left;
+	width: 300px;
+	padding-left: 5px;
+	margin-top: -18px;
+}
+.righttext h4{
+	font-family: georgia;
+	font-size: 18px;
+	color: #666666;
+}
 .righttext p{}
-.righttext a{}
-.contentright{}
+.righttext a{float: right;}
+.contentright{
+	width: 520px;
+	float: right;
+}
 .contentright h2{}
 .contentright img{}
 .contentright h4{}
